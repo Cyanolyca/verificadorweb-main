@@ -47,7 +47,7 @@
               echo "<div style='display:flex; position:absolute; left:50%; top:50%; -webkit-transform: translate(-50%, -50%);
                       transform: translate(-50%, -50%);'>
                     <div><img src='{$result['producto_imagen']}' width='300px' height=auto></div>
-                    <div style='display:flex; align-items:center; text-align: left;'>Nombre: {$result['producto_nombre']}.<br><br> 
+                    <div style='display:flex; align-items:center; text-align: left;'>Nombre: {$result['producto_nombre']}.<br> <br> 
                       Precio: $ {$result['producto_precio']}.<br>
                     </div>
                     </div>";  
